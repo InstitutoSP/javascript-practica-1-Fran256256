@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea java</title>
+    
+</head>
+<body>
+    <script lang="JavaScript">
+        var nombre;
+        nombre = "Fran y Juancito";
+        var edad;
+        edad = "16";
+        var EsEstudiante;
+        EsEstudiante = true
+        if(EsEstudiante){
+            console.log(nombre+" tienen "+edad+" y son estudiantes")
+        }else{console.log(nombre+" no es un estudiante")}
+        var saludar;
+        alert (" Holaaa "+nombre);
+        var contador=0;
+      let num = prompt("Ingrese un número:");
+if (num<0) {
+    alert("El numero es negativo");
+} else if(num>0){
+    alert("El numero es positivo");
+}else{alert("El numero es igual a 0");}
+
+while (contador< 6) {
+    console.log("la variable contador con while esta con el valor: "+contador);
+    contador++;
+}
+for (var contador=0; contador<6; contador++){
+    console.log("la variable contador con for esta con el valor: "+contador);
+}
+function mostrarMensaje() {
+            alert("BOCAAAAAA");
+        }
+let semana=prompt("Ingrese un numero del 1-7")
+switch (semana){
+    case '1':
+    alert('Hoy es Lunes');
+break;
+case '2':
+    alert('Hoy es Martes');
+break;
+case '3':
+   alert('Hoy es Miercoles');
+break;
+case '4':
+    alert('Hoy es Jueves');
+break;
+case '5':
+    alert('Hoy es Viernes');
+break;
+case '6':
+    alert('Hoy es Sabado');
+break;
+case '7':
+    alert('Hoy es Domingo');
+break;
+default:
+    alert('Dia de la semana desconocido')
+}
+
+        </script>
+
+<button onclick="mostrarMensaje()">Messi</button>
+
+</body>
+</html> 
+
